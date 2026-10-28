@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mercy Kubania · Data Analyst &amp; Analytics Engineer</title>
+<meta name="description" content="Data analyst and analytics engineer in Nairobi. Analytics, models and pipelines, with five years in health and pharmacy data.">
+<meta name="theme-color" content="#0E1B2A">
+<meta property="og:title" content="Mercy Kubania · Data Analyst &amp; Analytics Engineer">
+<meta property="og:description" content="I turn messy data into decisions. Analytics, models and pipelines.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230E1B2A'/%3E%3Ctext x='32' y='44' font-size='38' font-weight='800' text-anchor='middle' fill='%235EEAD4' font-family='sans-serif'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="wrap nav">
+  <a class="brand" href="#top">Mercy<span>.</span></a>
+  <nav aria-label="Main">
+    <a href="#work">Work</a>
+    <a href="#personal" data-personal>Personal projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<section class="wrap hero">
+  <p class="eyebrow">Data Analyst · Analytics Engineer · Nairobi</p>
+  <h1>I turn messy data into decisions.</h1>
+  <p class="lede">Analytics, models and pipelines. Five years in health and pharmacy data, where it has to be right.</p>
+  <div class="actions">
+    <a class="btn btn-dark" href="#work">See the work</a>
+    <a class="btn btn-outline" href="assets/Mercy-Kubania-CV.pdf">Download CV</a>
+  </div>
+</section>
+
+<section class="wrap stats-wrap" aria-label="Highlights">
+  <div class="stats">
+    <div><div class="stat">~90%</div><p>less manual data cleaning, using an AI-assisted workflow</p></div>
+    <div><div class="stat">80%</div><p>less data fragmentation after merging 3 source systems into one warehouse</p></div>
+    <div><div class="stat">500+</div><p>pharmacies audited automatically across 4 countries</p></div>
+  </div>
+</section>
+
+<section id="work" class="wrap section">
+  <p class="label">01 · Work projects</p>
+  <h2>What I shipped for real clients</h2>
+  <p class="sub">Anonymized: no client or facility names, no real data in any visual.</p>
+
+  <div class="chips" role="group" aria-label="Filter projects by type">
+    <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" class="chip" data-filter="analytics" aria-pressed="false">Analytics</button>
+    <button type="button" class="chip" data-filter="ml" aria-pressed="false">Machine Learning</button>
+    <button type="button" class="chip" data-filter="data-engineering" aria-pressed="false">Data Engineering</button>
+    <button type="button" class="chip" data-filter="ai" aria-pressed="false">AI</button>
+  </div>
+
+  <div class="grid">
+
+    <article class="card" data-cats="data-engineering">
+      <p class="badge">Work · healthcare analytics startup</p>
+      <h3>A data platform with no per-seat BI cost</h3>
+      <p class="result">5+ sources and 1.5M records in one warehouse, zero BI licence fees.</p>
+      <p>Staged pipeline from raw data to analytics-ready tables, with cleaning, patient de-identification and role-based access. Dashboards run on self-hosted Streamlit.</p>
+      <div class="tags"><span class="tag cat">Data Engineering</span><span class="tag">Snowflake</span><span class="tag">Streamlit</span></div>
+    </article>
+
+    <article class="card" data-cats="ai data-engineering">
+      <p class="badge">Work · healthcare analytics startup</p>
+      <h3>AI that turns doctor notes into ICD-11 codes</h3>
+      <p class="result">Manual work down ~90%. Humans review only the ~5% that need it.</p>
+      <p>An n8n workflow that standardises hospital system data and free-text clinical notes into ICD-11 codes, with a human validation step.</p>
+      <div class="tags"><span class="tag cat">AI</span><span class="tag cat">Data Engineering</span><span class="tag">n8n</span></div>
+    </article>
+
+    <article class="card" data-cats="data-engineering">
+      <p class="badge">Work · pharmacy tech company</p>
+      <h3>Three systems, one source of truth</h3>
+      <p class="result">Data fragmentation cut by 80%.</p>
+      <p>Migrated pharmacy, CRM and supply-chain data into one warehouse with 20+ tested dbt models, PR review and a dev-to-prod CI/CD flow.</p>
+      <div class="tags"><span class="tag cat">Data Engineering</span><span class="tag">dbt</span><span class="tag">Snowflake</span><span class="tag">Rivery</span></div>
+    </article>
+
+    <article class="card" data-cats="ml analytics">
+      <p class="badge">Work · healthcare analytics startup</p>
+      <h3>Stocking a new pharmacy branch with no pharmacy data</h3>
+      <p class="result">A first-month stock list for a branch that had no sales history.</p>
+      <p>Combined distance to hospitals, gyms and salons, a regional wealth index and other chains' product data, then used KNN to recommend what to stock. Delivered as a client demo.</p>
+      <div class="tags"><span class="tag cat">Machine Learning</span><span class="tag cat">Analytics</span><span class="tag">KNN</span></div>
+    </article>
+
+    <article class="card" data-cats="analytics">
+      <p class="badge">Work · pharmacy tech company</p>
+      <h3>Fraud and compliance scoring in 4 countries</h3>
+      <p class="result">Audits automated for 500+ pharmacies.</p>
+      <p>Designed country-specific composite indexes (normalisation, weighting, scoring), plus a performance analysis of 4,000+ pharmacies.</p>
+      <div class="tags"><span class="tag cat">Analytics</span><span class="tag">SQL</span><span class="tag">dbt</span></div>
+    </article>
+
+    <article class="card" data-cats="analytics">
+      <p class="badge">Work · pharmacy tech company</p>
+      <h3>Price and volume estimates for 30+ medical products</h3>
+      <p class="result">8 years of trade data, now an automated input for business development.</p>
+      <p>Modelled historical trade data to estimate price and volume, used to target private-sector opportunities.</p>
+      <div class="tags"><span class="tag cat">Analytics</span><span class="tag">Snowflake</span><span class="tag">dbt</span></div>
+    </article>
+
+  </div>
+  <p class="empty" id="empty" hidden>No projects in this category yet.</p>
+</section>
+
+<section id="personal" class="wrap section">
+  <p class="label">02 · Personal projects</p>
+  <h2>What I build on my own time</h2>
+  <p class="sub">Public data, open code and live demos anyone can open.</p>
+  <div class="grid">
+    <!-- Example card:
+    <article class="card" data-cats="ml">
+      <p class="badge">Personal · live demo</p>
+      <h3>Project name</h3>
+      <p class="result">One-line finding.</p>
+      <p>Two sentences: the question, the data, the result.</p>
+      <div class="tags"><span class="tag cat">Machine Learning</span><span class="tag">Python</span></div>
+      <a class="more" href="https://example.com">View demo · GitHub →</a>
+    </article>
+    -->
+  </div>
+</section>
+
+<section id="skills" class="wrap section">
+  <p class="label">03 · Skills</p>
+  <h2>The toolkit</h2>
+  <ul class="skills">
+    <li>Python</li>
+    <li>SQL</li>
+    <li>Snowflake</li>
+    <li>dbt · 3 years</li>
+    <li>Rivery</li>
+    <li>Streamlit</li>
+    <li>Looker · Metabase</li>
+    <li>n8n</li>
+    <li>Star schema modelling</li>
+    <li>Data de-identification</li>
+    <li>CI/CD with GitHub</li>
+  </ul>
+</section>
+
+<section id="about" class="wrap section">
+  <p class="label">04 · About</p>
+  <h2>Hi, I'm Mercy.</h2>
+  <p class="about">I started as a data analyst and became an analytics engineer. I lead data at a healthcare analytics startup in Nairobi, where I own the stack from raw data to reporting, and I support a small team. Before that, over three years at a pharmacy tech company, I built the warehouse, models and dashboards that its reporting ran on.</p>
+  <p class="about small">B.Sc. Computer Science, JKUAT. Certificate in Data Science, Moringa School.</p>
+</section>
+
+</main>
+
+<footer id="contact" class="contact">
+  <div class="wrap contact-in">
+    <div>
+      <h2>Let's talk data.</h2>
+      <p>Open to data and analytics engineering roles.</p>
+    </div>
+    <div class="actions">
+      <a class="btn btn-mint" href="mailto:mercykubz@gmail.com">mercykubz@gmail.com</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/mercy-k-352917118" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
